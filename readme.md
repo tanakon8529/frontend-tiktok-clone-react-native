@@ -1,5 +1,5 @@
 
-# Dedee App React Native
+# Dedee App React Native.
 
 Welcome to our cutting-edge React Native application! Designed to seamlessly integrate with our previously developed APIs, this app takes full advantage of the power and versatility of OAuth 2.0 authentication, ensuring secure access to our users' accounts. 
 
