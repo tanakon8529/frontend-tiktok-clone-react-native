@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "dedee-app",
+    "slug": "dedee-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+        "versionCode": "6",
+        "adaptiveIcon": {
+            "foregroundImage": "./assets/images/adaptive-icon.png",
+            "backgroundColor": "#ffffff"
+        },
+        "package": "com.dedeetanakon.dedeeapp",
+        "proguard": {
+            "enabled": true,
+            "config": [
+                "-keep class com.dedeetanakon.dedeeapp.MyClass { *; }",
+                "-keepclassmembers class com.dedeetanakon.dedeeapp.MyClass { public <methods>; }"
+            ]
+        }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5cd8ba1c-1f41-4fa7-afae-404dc8ce6e83"
+      }
+    }
+  }
+}
