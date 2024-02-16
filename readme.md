@@ -1,51 +1,71 @@
-The "frontend-tiktok-clone-react-native" project:
 
-```markdown
-# App React Native
+# Frontend TikTok Clone - React Native
 
-Welcome to our cutting-edge React Native application! This app integrates seamlessly with our previously developed APIs and utilizes OAuth 2.0 authentication to ensure secure user account access. It also leverages Amazon S3 for an engaging experience with auto-play videos, dynamic search functionality, video posting, real-time chat, and a user-friendly sign-up and login process using OTP verification.
+## Introduction
 
-## Features
-- React Native Framework
-- OAuth 2.0 Authentication
-- Amazon S3 Integration
-- Auto-play videos in feed
-- Dynamic search, video posting, and real-time chat
-- OTP-based sign-up and login
+Dive into our React Native application, designed to connect seamlessly with our backend APIs, ensuring a secure and dynamic user experience. With features like OAuth 2.0 for authentication, Amazon S3 for storage, auto-play videos, and real-time chat, this app delivers a comprehensive and engaging platform for users. Enjoy advanced functionalities including dynamic search, video posting, and OTP-based authentication for a smooth sign-up and login process.
 
-## Local Deployment with Expo and Yarn
+## Key Features
+
+- **React Native Framework:** For a responsive and native user experience.
+- **OAuth 2.0 Authentication:** Ensures secure access to user accounts.
+- **Amazon S3 Integration:** For storage, enabling auto-play video feeds.
+- **Comprehensive User Interaction:** Including dynamic search, video posting, and real-time chat.
+- **OTP Authentication:** For a user-friendly sign-up and login experience.
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Node.js and npm/yarn
+- Expo CLI (for local development)
+
+### Local Development
+
+#### Setting Up
+
+Clone the repository and install dependencies to get started:
+
+```shell
+git clone https://gitlab.com/demodecent_project/front-end/dedee-app.git
+cd dedee-app
+yarn install
 ```
-# Clone this repository
-$ git clone https://gitlab.com/demodecent_project/front-end/dedee-app.git
 
-# Navigate to the repository
-$ cd dedee-app
+#### Running the App
 
-# Install dependencies
-$ yarn install
+To launch the app on your local machine (supports Web, Android, iOS):
 
-# Run the app (Web, Android, iOS)
-$ yarn start
-
-# Add missing packages (if required)
-$ yarn add -D @types/<package-name>-react-native
+```shell
+yarn start
 ```
 
-## Building Android APK for Google Play
+If you encounter missing packages:
+
+```shell
+yarn add -D @types/<package-name>-react-native
 ```
-# Install the latest EAS CLI
-$ npm install -g eas-cli
 
-# Log in to your Expo account
-$ eas login
+## Building for Android
 
-# Configure the project
-$ eas build:configure
+Prepare your app for deployment to Google Play:
 
-# Run a build for Android
-$ eas build --platform android
+```shell
+# Install EAS CLI
+npm install -g eas-cli
 
-# Wait for the build to complete and check the list
-$ eas build:list
+# Log in to Expo
+eas login
 
-# Deploy the build to Google Play Console
+# Configure your project for build
+eas build:configure
+
+# Build your app for Android
+eas build --platform android
+
+# Monitor build status and retrieve APK
+eas build:list
+```
+
+Deploy the build APK to the Google Play Console as per the platform's guidelines.
