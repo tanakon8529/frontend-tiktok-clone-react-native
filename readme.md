@@ -10,7 +10,6 @@ Dive into our React Native application, designed to connect seamlessly with our 
 - **React Native Framework:** For a responsive and native user experience.
 - **OAuth 2.0 Authentication:** Ensures secure access to user accounts.
 - **Amazon S3 Integration:** For storage, enabling auto-play video feeds.
-- **Comprehensive User Interaction:** Including dynamic search, video posting, and real-time chat.
 - **OTP Authentication:** For a user-friendly sign-up and login experience.
 
 ## Getting Started
