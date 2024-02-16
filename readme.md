@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Dive into our React Native application, designed to connect seamlessly with our backend APIs, ensuring a secure and dynamic user experience. With features like OAuth 2.0 for authentication, Amazon S3 for storage, auto-play videos, and real-time chat, this app delivers a comprehensive and engaging platform for users. Enjoy advanced functionalities including dynamic search, video posting, and OTP-based authentication for a smooth sign-up and login process.
+Dive into our React Native application, designed to connect seamlessly with our backend APIs, ensuring a secure and dynamic user experience. With features like OAuth 2.0 for authentication, Amazon S3 for storage, and auto-play videos, this app delivers a comprehensive and engaging platform for users. Enjoy advanced functionalities including dynamic search, video posting, and OTP-based authentication for a smooth sign-up and login process.
 
 ## Key Features
 
